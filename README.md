@@ -2,8 +2,6 @@
 
 A collection of classic cryptographic algorithms implemented in C++, built for learning, tinkering, and appreciating the art of secret messages.
 
-If you can read this README, congratulations — it's not encrypted. Yet.
-
 NOTE: I may not be 'happy' with whatever algorithm I've chosen to solve the pieces, they might just not be the most optimized solutions, but yeah I won't call it 'untidy' either, feel free to take a look!
 
 (If my code offends any cryptographer, I apologise — but also, good luck proving it was me.)
