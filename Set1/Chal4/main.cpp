@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
-#include "../../include/crypto/utils.h"
+#include "../../include/crypto/crypto.h"
+#include "../../include/helperfxns/helperfxns.h"
 using namespace std;
 
 // Convert hex string -> byte vector
