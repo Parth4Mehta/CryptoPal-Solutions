@@ -39,3 +39,15 @@ inline double scoreEnglish(const string &text) {
     }
     return score;
 }
+
+inline int hammingDistance(const string &s1, const string &s2) {
+    if (s1.size() != s2.size()) {
+        throw invalid_argument("Strings must be of equal length");
+    }
+    int distance = 0;
+    for (size_t i = 0; i < s1.size(); ++i) {
+        unsigned char xorByte = s1[i] ^ s2[i];
+        distance += __builtin_popcount(xorByte);
+    }
+    return distance;
+}
